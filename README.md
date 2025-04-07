@@ -1,8 +1,18 @@
 ## yoyogames archive bot
 
+random games from the yoyogames game maker sandbox (2007-2016), posted to mastodon and bsky every few hours.
+
+based on the database assembled at https://www.yygarchive.org/, with additional images scraped from the wayback machine.
+
+you can download and play these games!
+
 https://mastodon.social/@yygarchive
 
 https://bsky.app/profile/yygarchive.bsky.social
+
+![image from crimelife 2, one of the most downloaded games from the yoyogames game maker sandbox. a 3d character of slightly odd proportions stands in front of a wardrobe in a nondescript room. in white italic cursive text in the top-left corner it says: Use Q or E to rotate character. W, A, S, D to change clothes. below that in papyrus font it says: TORSO (with chevrons highlighting it as selected), LEGS, SHOES](img.jpg)
+
+---
 
 this is a bot that posts a queue of images to bsky and mastodon. it's written in [typescript](https://www.typescriptlang.org/) and runs on [node.js](http://nodejs.org/).
 
@@ -12,7 +22,7 @@ once you're set, run:
 
 ```sh
 git clone https://github.com/lostfictions/yygarchive
-cd vidnite
+cd yygarchive
 corepack enable # enables use of the pnpm package manager
 pnpm install
 pnpm dev
